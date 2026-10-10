@@ -39,7 +39,7 @@
     card.style.transitionDelay = (i * 80) + 'ms';
     card.innerHTML =
       '<span class="tag">' + f.tag + '</span>' +
-      '<div class="ph" data-img="images/' + f.id + '.webp" data-label="' + f.name + ' cookie" data-size="1200 x 1200 PNG"></div>' +
+      '<div class="ph" data-img="images/' + f.id + '.png" data-label="' + f.name + ' cookie" data-size="1200 x 1200 PNG"></div>' +
       '<h3>' + f.name + '</h3><p>' + f.desc + '</p>' +
       '<div class="row"><span class="price">' + CURRENCY + f.price.toFixed(3) + '</span>' +
       '<button class="add" data-id="' + f.id + '">Add to box</button></div>';
@@ -140,7 +140,7 @@
   });
 
   /* Scroll reveal */
-  document.querySelectorAll('.step,.way,.feature,.order-card,.news,.band-inner').forEach(function (el) { el.classList.add('reveal'); });
+  document.querySelectorAll('.step,.way,.duo-card,.order-card,.news,.band-inner').forEach(function (el) { el.classList.add('reveal'); });
   if ('IntersectionObserver' in window) {
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });

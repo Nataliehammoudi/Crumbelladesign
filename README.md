@@ -15,10 +15,8 @@ Every picture spot shows a labelled placeholder. Add a file with the matching na
 
 - hero-1.png, hero-2.png, hero-3.png, hero-4.png (the four photos around the banner), classic.png
 - choc.png, brookie.png, smores.png, mm.png
-- delivery.jpg, pickup.jpg, stores.jpg (still placeholders)
-- rewards.webp, giftcard.webp, catering.webp (the three feature rows, still placeholders)
-
-Photos are WebP with transparent backgrounds. Spare falling cookie shots are in images/extra.
+- delivery.jpg, pickup.jpg, stores.jpg
+- catering.png, giftcard.png
 
 ## Deploy
 

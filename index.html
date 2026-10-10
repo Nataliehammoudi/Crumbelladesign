@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crumbella | Authentic American Cookies</title>
+<meta name="description" content="Crumbella chewy chunky cookie mixes. Authentic American cookies, made to make you melt.">
+<meta name="theme-color" content="#4f2468">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="top">
+  <button class="menu-open" id="menuBtn" aria-label="Open menu" aria-controls="navLinks">
+    <svg width="34" height="22" viewBox="0 0 34 22" aria-hidden="true"><path d="M2 3h30M2 11h30M2 19h18" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/></svg>
+    <span>Menu</span>
+  </button>
+  <a class="logo" href="#top" aria-label="Crumbella home"><span class="logo-word">CRUMBELLA</span></a>
+  <div class="nav-actions">
+    <button class="cart-btn" id="cartBtn" aria-label="Open your box">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M5 8h14l-1.2 11.2a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8L5 8zm4-1a3 3 0 0 1 6 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span id="cartCount">0</span>
+    </button>
+    <a class="btn btn-black" href="#order">Order Now</a>
+  </div>
+</header>
+
+<nav class="sidenav" id="navLinks" aria-label="Main menu">
+  <button class="sidenav-close" id="navClose" aria-label="Close menu">&times;</button>
+  <a href="#top">Home</a>
+  <a href="#order">Order</a>
+  <a href="#locations">Locations</a>
+  <a href="#catering">Catering</a>
+  <a href="#giftcards">Gift Cards</a>
+  <a href="#merch">Merch</a>
+  <a href="#signin">Sign in</a>
+</nav>
+
+<main>
+
+<!-- HERO -->
+<section class="hero-wrap">
+  <div class="hero-banner">
+    <div class="ph hero-ph hp-tl" data-img="images/hero-1.png" data-label="Flavor photo 1" data-size="900 x 900 PNG"></div>
+    <div class="ph hero-ph hp-tr" data-img="images/hero-2.png" data-label="Flavor photo 2" data-size="900 x 900 PNG"></div>
+    <div class="ph hero-ph hp-bl" data-img="images/hero-3.png" data-label="Flavor photo 3" data-size="900 x 900 PNG"></div>
+    <div class="ph hero-ph hp-br" data-img="images/hero-4.png" data-label="Flavor photo 4" data-size="900 x 900 PNG"></div>
+    <div class="hero-center">
+      <h1>New Flavors</h1>
+      <p>Chunky season has officially arrived at Crumbella.</p>
+      <a class="btn btn-black btn-lg" href="#order">Order Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- WEEKLY FLAVORS -->
+<section class="section" id="flavors">
+  <div class="section-head">
+    <h2>This week's flavors</h2>
+    <a class="link-arrow" href="#order">Order now</a>
+  </div>
+  <div class="flavor-grid" id="flavorGrid"></div>
+</section>
+
+<!-- CLASSIC -->
+<section class="band band-ink">
+  <div class="band-inner">
+    <div>
+      <p class="kicker">The classic</p>
+      <h2>Choc Chips Cookie Mix</h2>
+      <p>Always on the menu. Soft middle, golden edges and real chocolate chips in every bite.</p>
+      <a class="btn btn-yellow" href="#order">Add to box</a>
+    </div>
+    <div class="ph" data-img="images/classic.png" data-label="Classic cookie" data-size="1200 x 1200 PNG"></div>
+  </div>
+</section>
+
+<!-- WAYS TO GET -->
+<section class="section" id="locations">
+  <div class="section-head center"><h2>Get your cookies your way</h2></div>
+  <div class="ways">
+    <article class="way">
+      <div class="ph" data-img="images/delivery.jpg" data-label="Delivery photo" data-size="900 x 600 JPG"></div>
+      <h3>Delivery</h3><p>Fresh to your door in Amman, same day on orders before noon.</p><a class="link-arrow" href="#order">Order delivery</a>
+    </article>
+    <article class="way">
+      <div class="ph" data-img="images/pickup.jpg" data-label="Pickup photo" data-size="900 x 600 JPG"></div>
+      <h3>Pickup</h3><p>Order ahead and collect your box when it suits you.</p><a class="link-arrow" href="#order">Order pickup</a>
+    </article>
+    <article class="way">
+      <div class="ph" data-img="images/stores.jpg" data-label="Retail photo" data-size="900 x 600 JPG"></div>
+      <h3>In stores</h3><p>Find Crumbella on shelves at partner stores near you.</p><a class="link-arrow" href="#locations">Find a store</a>
+    </article>
+  </div>
+</section>
+
+<!-- HOW -->
+<section class="section how" id="how">
+  <div class="section-head center"><h2>Four easy steps</h2></div>
+  <div class="steps">
+    <article class="step"><span class="n">1</span><h3>Heat</h3><p>Preheat the oven to 180 degrees Celsius.</p></article>
+    <article class="step"><span class="n">2</span><h3>Mix</h3><p>Combine the mix, softened butter and one egg until a dough forms.</p></article>
+    <article class="step"><span class="n">3</span><h3>Shape</h3><p>Drop dough 6 cm apart on an ungreased tray.</p></article>
+    <article class="step"><span class="n">4</span><h3>Bake</h3><p>Bake until the edges turn golden. Cool 2 minutes before lifting.</p></article>
+  </div>
+</section>
+
+<!-- CATERING + GIFT CARDS -->
+<section class="section duo" id="catering">
+  <article class="duo-card duo-purple">
+    <div><h2>Catering</h2><p>Cookie boxes for offices, weddings and every celebration in between.</p><a class="btn btn-yellow" href="mailto:hello@crumbella.com">Request a quote</a></div>
+    <div class="ph" data-img="images/catering.png" data-label="Catering image" data-size="900 x 900 PNG"></div>
+  </article>
+  <article class="duo-card duo-blue" id="giftcards">
+    <div><h2>Gift cards</h2><p>Send something sweet. Digital and printed cards available.</p><a class="btn btn-yellow" href="#giftcards">Buy a gift card</a></div>
+    <div class="ph" data-img="images/giftcard.png" data-label="Gift card image" data-size="900 x 900 PNG"></div>
+  </article>
+</section>
+
+<!-- ORDER -->
+<section class="section order" id="order">
+  <div class="order-card">
+    <div class="order-copy">
+      <h2>Your box</h2>
+      <p class="sub">Add your mixes, choose delivery or pickup, and we will confirm by message.</p>
+      <ul class="order-list" id="orderList"></ul>
+      <div class="order-total"><span>Total</span><strong id="orderTotal">JD 0.000</strong></div>
+    </div>
+    <form class="order-form" id="orderForm" novalidate>
+      <label>Full name<input name="name" type="text" autocomplete="name" required></label>
+      <label>Phone number<input name="phone" type="tel" autocomplete="tel" required></label>
+      <label>Area in Amman<input name="area" type="text" autocomplete="address-level2"></label>
+      <fieldset>
+        <legend>How would you like it?</legend>
+        <label class="radio"><input type="radio" name="method" value="Delivery" checked><span>Delivery</span></label>
+        <label class="radio"><input type="radio" name="method" value="Pickup"><span>Pickup</span></label>
+      </fieldset>
+      <button class="btn btn-yellow wide" type="submit">Place order</button>
+      <p class="form-note" id="formNote" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<!-- MERCH + NEWSLETTER -->
+<section class="section" id="merch">
+  <div class="news">
+    <div>
+      <h2>Never miss a drop</h2>
+      <p>Get new flavors and offers in your inbox every week.</p>
+    </div>
+    <form class="news-form" id="newsForm" novalidate>
+      <input type="email" name="email" placeholder="Your email" aria-label="Email address" required>
+      <button class="btn btn-primary" type="submit">Subscribe</button>
+    </form>
+    <p class="form-note dark" id="newsNote" role="status"></p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="foot-grid">
+    <div>
+      <div class="logo-word small">CRUMBELLA</div>
+      <p class="muted">Authentic American Cookies</p>
+    </div>
+    <div><h4>Shop</h4><a href="#order">Order</a><a href="#flavors">Flavors</a><a href="#giftcards">Gift Cards</a><a href="#merch">Merch</a></div>
+    <div><h4>Company</h4><a href="#how">How it works</a><a href="#catering">Catering</a><a href="#locations">Locations</a></div>
+    <div><h4>Help</h4><a href="mailto:hello@crumbella.com">Contact us</a><a href="#top">FAQ</a><a href="#top">Allergens</a></div>
+  </div>
+  <p class="copy">&copy; 2026 Crumbella. All rights reserved. Do not eat raw cookie dough.</p>
+</footer>
+
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer-head"><h3>Your box</h3><button id="drawerClose" aria-label="Close">&times;</button></div>
+  <ul id="drawerList"></ul>
+  <div class="drawer-foot"><div class="order-total"><span>Total</span><strong id="drawerTotal">JD 0.000</strong></div><a class="btn btn-primary wide" href="#order" id="drawerCheckout">Checkout</a></div>
+</aside>
+<div class="scrim" id="scrim"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
